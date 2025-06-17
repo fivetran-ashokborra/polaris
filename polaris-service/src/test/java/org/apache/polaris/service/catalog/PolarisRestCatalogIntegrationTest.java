@@ -58,6 +58,7 @@ import org.apache.iceberg.expressions.Expressions;
 import org.apache.iceberg.io.ResolvingFileIO;
 import org.apache.iceberg.rest.RESTCatalog;
 import org.apache.iceberg.rest.responses.ErrorResponse;
+import org.apache.iceberg.SortOrder;
 import org.apache.iceberg.types.Types;
 import org.apache.polaris.core.PolarisConfiguration;
 import org.apache.polaris.core.admin.model.AwsStorageConfigInfo;
@@ -1207,5 +1208,24 @@ public class PolarisRestCatalogIntegrationTest extends CatalogTests<RESTCatalog>
             .head()) {
       assertThat(response).returns(Response.Status.NO_CONTENT.getStatusCode(), Response::getStatus);
     }
+  }
+
+  @RestCatalogConfig({"header.X-Iceberg-Access-Delegation", "vended-credentials"})
+  @Test
+  public void createHistoryTableSucceeds() {
+    Namespace ns = Namespace.of("ns1");
+    if (!restCatalog.namespaceExists(ns)) {
+      restCatalog.createNamespace(ns);
+    }
+    restCatalog
+            .buildTable(
+                    TableIdentifier.of(ns, "history"),
+                    new Schema(
+                            List.of(
+                                    Types.NestedField.required(1, "id", Types.IntegerType.get()))))
+            .withSortOrder(SortOrder.unsorted())
+            .withPartitionSpec(PartitionSpec.unpartitioned())
+            .withProperty("stage-create", "true")
+            .create();
   }
 }
