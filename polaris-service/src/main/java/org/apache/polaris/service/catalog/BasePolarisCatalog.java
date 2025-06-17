@@ -219,10 +219,9 @@ public class BasePolarisCatalog extends BaseMetastoreViewCatalog
   @Override
   public boolean tableExists(TableIdentifier identifier) {
     // Since we only care about actual tables when we call tableExists() and not metadata tables, we
-    // override it and
-    // provide an implementation that does not rely on wrapping loadTable() in a try/catch as the
-    // parent class does.
-    // As a result, it will not conflict with metadata table names anymore.
+    // override it and provide an implementation that does not rely on wrapping loadTable() in a
+    // try/catch as the parent class does. As a result, it will not conflict with metadata table
+    // names anymore.
     // Upstream(kostas): https://github.com/apache/polaris/pull/1772
     if (isValidIdentifier(identifier)) {
       return newTableOps(identifier).current() != null;
