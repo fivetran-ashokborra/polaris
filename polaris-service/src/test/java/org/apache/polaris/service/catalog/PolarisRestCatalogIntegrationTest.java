@@ -42,6 +42,7 @@ import org.apache.iceberg.BaseTable;
 import org.apache.iceberg.BaseTransaction;
 import org.apache.iceberg.PartitionSpec;
 import org.apache.iceberg.Schema;
+import org.apache.iceberg.SortOrder;
 import org.apache.iceberg.Table;
 import org.apache.iceberg.TableMetadata;
 import org.apache.iceberg.TableMetadataParser;
@@ -58,7 +59,6 @@ import org.apache.iceberg.expressions.Expressions;
 import org.apache.iceberg.io.ResolvingFileIO;
 import org.apache.iceberg.rest.RESTCatalog;
 import org.apache.iceberg.rest.responses.ErrorResponse;
-import org.apache.iceberg.SortOrder;
 import org.apache.iceberg.types.Types;
 import org.apache.polaris.core.PolarisConfiguration;
 import org.apache.polaris.core.admin.model.AwsStorageConfigInfo;
@@ -1218,14 +1218,12 @@ public class PolarisRestCatalogIntegrationTest extends CatalogTests<RESTCatalog>
       restCatalog.createNamespace(ns);
     }
     restCatalog
-            .buildTable(
-                    TableIdentifier.of(ns, "history"),
-                    new Schema(
-                            List.of(
-                                    Types.NestedField.required(1, "id", Types.IntegerType.get()))))
-            .withSortOrder(SortOrder.unsorted())
-            .withPartitionSpec(PartitionSpec.unpartitioned())
-            .withProperty("stage-create", "true")
-            .create();
+        .buildTable(
+            TableIdentifier.of(ns, "history"),
+            new Schema(List.of(Types.NestedField.required(1, "id", Types.IntegerType.get()))))
+        .withSortOrder(SortOrder.unsorted())
+        .withPartitionSpec(PartitionSpec.unpartitioned())
+        .withProperty("stage-create", "true")
+        .create();
   }
 }
