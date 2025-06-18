@@ -1212,7 +1212,7 @@ public class PolarisRestCatalogIntegrationTest extends CatalogTests<RESTCatalog>
 
   @RestCatalogConfig({"header.X-Iceberg-Access-Delegation", "vended-credentials"})
   @Test
-  public void createHistoryTableSucceeds() {
+  public void createHistoryTableStageSucceeds() {
     Namespace ns = Namespace.of("ns1");
     if (!restCatalog.namespaceExists(ns)) {
       restCatalog.createNamespace(ns);
@@ -1225,5 +1225,53 @@ public class PolarisRestCatalogIntegrationTest extends CatalogTests<RESTCatalog>
         .withPartitionSpec(PartitionSpec.unpartitioned())
         .withProperty("stage-create", "true")
         .create();
+  }
+
+  @RestCatalogConfig({"header.X-Iceberg-Access-Delegation", "vended-credentials"})
+  @Test
+  public void createHistoryTableNoStageSucceeds() {
+    Namespace ns = Namespace.of("ns1");
+    if (!restCatalog.namespaceExists(ns)) {
+      restCatalog.createNamespace(ns);
+    }
+    restCatalog
+            .buildTable(
+                    TableIdentifier.of(ns, "history"),
+                    new Schema(List.of(Types.NestedField.required(1, "id", Types.IntegerType.get()))))
+            .withSortOrder(SortOrder.unsorted())
+            .withPartitionSpec(PartitionSpec.unpartitioned())
+            .withProperty("stage-create", "false")
+            .create();
+  }
+
+  @CatalogConfig(Catalog.TypeEnum.EXTERNAL)
+  @RestCatalogConfig({"header.X-Iceberg-Access-Delegation", "vended-credentials"})
+  @Test
+  public void registerHistoryTableSucceeds() {
+    Namespace ns1 = Namespace.of("ns1");
+    restCatalog.createNamespace(ns1);
+    TableMetadata tableMetadata =
+            TableMetadata.newTableMetadata(
+                    new Schema(List.of(Types.NestedField.of(1, false, "col1", new Types.StringType()))),
+                    PartitionSpec.unpartitioned(),
+                    "file:///tmp/ns1/history",
+                    Map.of());
+    try (ResolvingFileIO resolvingFileIO = new ResolvingFileIO()) {
+      resolvingFileIO.initialize(Map.of());
+      resolvingFileIO.setConf(new Configuration());
+      String fileLocation = "file:///tmp/ns1/history/metadata/v1.metadata.json";
+      TableMetadataParser.write(tableMetadata, resolvingFileIO.newOutputFile(fileLocation));
+      restCatalog.registerTable(TableIdentifier.of(ns1, "history"), fileLocation);
+      try {
+        Assertions.assertThatThrownBy(
+                        () -> restCatalog.loadTable(TableIdentifier.of(ns1, "history")))
+                .isInstanceOf(ForbiddenException.class)
+                .hasMessageContaining("Access Delegation is not enabled for this catalog")
+                .hasMessageContaining(
+                        PolarisConfiguration.ALLOW_EXTERNAL_CATALOG_CREDENTIAL_VENDING.catalogConfig());
+      } finally {
+        resolvingFileIO.deleteFile(fileLocation);
+      }
+    }
   }
 }
