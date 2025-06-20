@@ -216,8 +216,7 @@ class AwsCredentialsStorageIntegrationTest {
                                                 IamAction.create("kms:GenerateDataKey"),
                                                 IamAction.create("kms:Decrypt"),
                                                 IamAction.create("kms:DescribeKey")),
-                                            IamStatement::actions)
-                                        );
+                                            IamStatement::actions));
                       });
               return ASSUME_ROLE_RESPONSE;
             });
@@ -313,8 +312,7 @@ class AwsCredentialsStorageIntegrationTest {
                                                 IamAction.create("kms:GenerateDataKey"),
                                                 IamAction.create("kms:Decrypt"),
                                                 IamAction.create("kms:DescribeKey")),
-                                            IamStatement::actions)
-                                        );
+                                            IamStatement::actions));
                       });
               return ASSUME_ROLE_RESPONSE;
             });
@@ -413,8 +411,7 @@ class AwsCredentialsStorageIntegrationTest {
                                                 IamAction.create("kms:GenerateDataKey"),
                                                 IamAction.create("kms:Decrypt"),
                                                 IamAction.create("kms:DescribeKey")),
-                                            IamStatement::actions)
-                                        );
+                                            IamStatement::actions));
                       });
               return ASSUME_ROLE_RESPONSE;
             });
@@ -482,8 +479,7 @@ class AwsCredentialsStorageIntegrationTest {
                                                 IamAction.create("kms:GenerateDataKey"),
                                                 IamAction.create("kms:Decrypt"),
                                                 IamAction.create("kms:DescribeKey")),
-                                            IamStatement::actions)
-                                        );
+                                            IamStatement::actions));
                       });
               return ASSUME_ROLE_RESPONSE;
             });
