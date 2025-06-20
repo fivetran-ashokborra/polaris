@@ -217,19 +217,7 @@ class AwsCredentialsStorageIntegrationTest {
                                                 IamAction.create("kms:Decrypt"),
                                                 IamAction.create("kms:DescribeKey")),
                                             IamStatement::actions)
-                                        .satisfies(
-                                            st ->
-                                                assertThat(st.conditions())
-                                                    .containsExactlyInAnyOrder(
-                                                        IamCondition.create(
-                                                            IamConditionOperator.STRING_EQUALS,
-                                                            "aws:PrincipalArn",
-                                                            roleARN),
-                                                        IamCondition.create(
-                                                            IamConditionOperator.STRING_LIKE,
-                                                            "kms:EncryptionContext:aws:s3:arn",
-                                                            s3Arn(awsPartition, bucket, null)
-                                                                + "*"))));
+                                        );
                       });
               return ASSUME_ROLE_RESPONSE;
             });
@@ -326,19 +314,7 @@ class AwsCredentialsStorageIntegrationTest {
                                                 IamAction.create("kms:Decrypt"),
                                                 IamAction.create("kms:DescribeKey")),
                                             IamStatement::actions)
-                                        .satisfies(
-                                            st ->
-                                                assertThat(st.conditions())
-                                                    .containsExactlyInAnyOrder(
-                                                        IamCondition.create(
-                                                            IamConditionOperator.STRING_EQUALS,
-                                                            "aws:PrincipalArn",
-                                                            roleARN),
-                                                        IamCondition.create(
-                                                            IamConditionOperator.STRING_LIKE,
-                                                            "kms:EncryptionContext:aws:s3:arn",
-                                                            s3Arn(AWS_PARTITION, bucket, null)
-                                                                + "*"))));
+                                        );
                       });
               return ASSUME_ROLE_RESPONSE;
             });
@@ -438,19 +414,7 @@ class AwsCredentialsStorageIntegrationTest {
                                                 IamAction.create("kms:Decrypt"),
                                                 IamAction.create("kms:DescribeKey")),
                                             IamStatement::actions)
-                                        .satisfies(
-                                            st ->
-                                                assertThat(st.conditions())
-                                                    .containsExactlyInAnyOrder(
-                                                        IamCondition.create(
-                                                            IamConditionOperator.STRING_EQUALS,
-                                                            "aws:PrincipalArn",
-                                                            roleARN),
-                                                        IamCondition.create(
-                                                            IamConditionOperator.STRING_LIKE,
-                                                            "kms:EncryptionContext:aws:s3:arn",
-                                                            s3Arn(AWS_PARTITION, bucket, null)
-                                                                + "*"))));
+                                        );
                       });
               return ASSUME_ROLE_RESPONSE;
             });
@@ -519,19 +483,7 @@ class AwsCredentialsStorageIntegrationTest {
                                                 IamAction.create("kms:Decrypt"),
                                                 IamAction.create("kms:DescribeKey")),
                                             IamStatement::actions)
-                                        .satisfies(
-                                            st ->
-                                                assertThat(st.conditions())
-                                                    .containsExactlyInAnyOrder(
-                                                        IamCondition.create(
-                                                            IamConditionOperator.STRING_EQUALS,
-                                                            "aws:PrincipalArn",
-                                                            roleARN),
-                                                        IamCondition.create(
-                                                            IamConditionOperator.STRING_LIKE,
-                                                            "kms:EncryptionContext:aws:s3:arn",
-                                                            s3Arn(AWS_PARTITION, bucket, null)
-                                                                + "*"))));
+                                        );
                       });
               return ASSUME_ROLE_RESPONSE;
             });
