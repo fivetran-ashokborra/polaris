@@ -1,0 +1,29 @@
+polaris-core/src/main/java/org/apache/polaris/core/storage/azure/AzureCredentialsStorageIntegration.java
+  943b9a394ae1cc01 131-133,141-152
+polaris-core/src/main/java/org/apache/polaris/core/storage/azure/AzureSecredCredentialCache.java
+  943b9a394ae1cc01 22,48,63,115
+polaris-core/src/test/java/org/apache/polaris/core/storage/azure/AzureCredentialsStorageIntegrationTest.java
+  943b9a394ae1cc01 57-58,141-147,149-153
+polaris-core/src/test/java/org/apache/polaris/core/storage/azure/AzureSecredCredentialCacheSpec.java
+  943b9a394ae1cc01 22-24,42-48,52,54,56,61,70,73,83,86,90-91,100-101,118-119,122,149,160-161,173,191,199,214,233
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.1",
+  "base_commit_sha": "765b5875b3cbc9667a3d6c3a285bb68a838db61b",
+  "prompts": {
+    "943b9a394ae1cc01": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "aed9d0b0-c7ee-4847-a140-4eb00ba2db9b",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Zhen Li <zhen.li@fivetran.com>",
+      "messages": [],
+      "total_additions": 66,
+      "total_deletions": 53,
+      "accepted_lines": 66,
+      "overriden_lines": 0
+    }
+  }
+}
