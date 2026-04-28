@@ -1,0 +1,25 @@
+polaris-service/src/main/java/org/apache/polaris/service/exception/IcebergExceptionMapper.java
+  248dd61f832b5b68 22,29,34,77-79,98-135,137-140,142-148,152-155,157-188
+polaris-service/src/test/java/org/apache/polaris/service/exception/IcebergExceptionMapperTest.java
+  248dd61f832b5b68 1-175
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.1",
+  "base_commit_sha": "3d0cef46492e7fec1fe81b0f9565429f0a94ab6d",
+  "prompts": {
+    "248dd61f832b5b68": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e364437a-dbc3-4637-9f28-7a1586fb53a1",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "ashok.borra <ashok.borra@fivetran.com>",
+      "messages": [],
+      "total_additions": 287,
+      "total_deletions": 57,
+      "accepted_lines": 270,
+      "overriden_lines": 0
+    }
+  }
+}
