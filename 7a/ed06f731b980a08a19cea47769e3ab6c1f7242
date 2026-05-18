@@ -1,0 +1,27 @@
+persistence/eclipselink/src/main/java/org/apache/polaris/extension/persistence/impl/eclipselink/PolarisEclipseLinkMetaStoreSessionImpl.java
+  b3da2f41994c187b 646-647,649
+polaris-core/src/test/java/org/apache/polaris/core/persistence/TaskEntityCatalogNameExtractionTest.java
+  b3da2f41994c187b 1-309
+polaris-core/src/main/java/org/apache/polaris/core/persistence/BaseMetaStoreManager.java
+  b3da2f41994c187b 29,31,52-89
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.1",
+  "base_commit_sha": "7aed06f731b980a08a19cea47769e3ab6c1f7242",
+  "prompts": {
+    "b3da2f41994c187b": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "637c9bec-fd85-428d-9e25-955e6b986bdf",
+        "model": "claude-haiku-4-5-20251001"
+      },
+      "human_author": "Kostas Zoumpatianos <kostas.zoumpatianos@fivetran.com>",
+      "messages": [],
+      "total_additions": 446,
+      "total_deletions": 95,
+      "accepted_lines": 352,
+      "overriden_lines": 0
+    }
+  }
+}
