@@ -1,0 +1,23 @@
+polaris-core/src/main/java/org/apache/polaris/core/entity/PolarisPrincipalSecrets.java
+  f4cbd10a34c39c57 178-179,184
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.1",
+  "base_commit_sha": "07d4e14e5d24733aa08d5c4253e99bc0155cab60",
+  "prompts": {
+    "f4cbd10a34c39c57": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e7f39c18-aceb-490b-aaa7-2d4e10d52b8b",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "ashok.borra <ashok.borra@fivetran.com>",
+      "messages": [],
+      "total_additions": 11,
+      "total_deletions": 1,
+      "accepted_lines": 5,
+      "overriden_lines": 2
+    }
+  }
+}
