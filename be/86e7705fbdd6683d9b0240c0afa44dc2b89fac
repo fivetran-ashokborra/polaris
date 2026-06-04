@@ -1,0 +1,23 @@
+polaris-core/src/main/java/org/apache/polaris/core/persistence/BaseMetaStoreManager.java
+  2d394c54dc865945 56-57,59-67,69-70,74
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.1",
+  "base_commit_sha": "be86e7705fbdd6683d9b0240c0afa44dc2b89fac",
+  "prompts": {
+    "2d394c54dc865945": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "7f8eeb04-bf34-4f67-8094-e6397387537e",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Kostas Zoumpatianos <kostas.zoumpatianos@fivetran.com>",
+      "messages": [],
+      "total_additions": 15,
+      "total_deletions": 5,
+      "accepted_lines": 15,
+      "overriden_lines": 0
+    }
+  }
+}
