@@ -1,0 +1,27 @@
+polaris-core/src/main/java/org/apache/polaris/core/persistence/transactional/TreeMapTransactionalPersistenceImpl.java
+  2d394c54dc865945 553-554,556
+persistence/relational-jdbc/src/main/java/org/apache/polaris/persistence/relational/jdbc/JdbcBasePersistenceImpl.java
+  2d394c54dc865945 1160-1161,1163
+polaris-core/src/main/java/org/apache/polaris/core/persistence/BaseMetaStoreManager.java
+  2d394c54dc865945 22,24-25,75-77,87-93,100-124,131-138,148,163-164
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.1",
+  "base_commit_sha": "e6c7b1126d8c5e0d0ccc1404d112b7b545a19da2",
+  "prompts": {
+    "2d394c54dc865945": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "7f8eeb04-bf34-4f67-8094-e6397387537e",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Kostas Zoumpatianos <kostas.zoumpatianos@fivetran.com>",
+      "messages": [],
+      "total_additions": 67,
+      "total_deletions": 21,
+      "accepted_lines": 55,
+      "overriden_lines": 0
+    }
+  }
+}
