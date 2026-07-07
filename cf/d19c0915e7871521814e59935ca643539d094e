@@ -1,0 +1,23 @@
+runtime/service/src/main/java/org/apache/polaris/service/catalog/iceberg/IcebergCatalog.java
+  72bad34babf592f9 1711-1712
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.1",
+  "base_commit_sha": "cfd19c0915e7871521814e59935ca643539d094e",
+  "prompts": {
+    "72bad34babf592f9": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "7ccdaa21-3c46-4efb-b6a7-60c16ba4b8c8",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": null,
+      "messages": [],
+      "total_additions": 30,
+      "total_deletions": 92,
+      "accepted_lines": 405,
+      "overriden_lines": 0
+    }
+  }
+}

@@ -1,0 +1,23 @@
+runtime/service/src/test/java/org/apache/polaris/service/catalog/iceberg/WriteVerificationRetryTest.java
+  72bad34babf592f9 113,130,139-144,147-148
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.1",
+  "base_commit_sha": "1c6e93339ec3e1b5ab9e65d106c9c34ca2da62c9",
+  "prompts": {
+    "72bad34babf592f9": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "7ccdaa21-3c46-4efb-b6a7-60c16ba4b8c8",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": null,
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 100,
+      "overriden_lines": 0
+    }
+  }
+}

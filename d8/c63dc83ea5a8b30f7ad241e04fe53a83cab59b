@@ -1,0 +1,23 @@
+runtime/service/src/test/java/org/apache/polaris/service/catalog/io/FileIOExceptionsTest.java
+  72bad34babf592f9 70,176-182,184-188
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.1",
+  "base_commit_sha": "d8c63dc83ea5a8b30f7ad241e04fe53a83cab59b",
+  "prompts": {
+    "72bad34babf592f9": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "7ccdaa21-3c46-4efb-b6a7-60c16ba4b8c8",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": null,
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 90,
+      "overriden_lines": 0
+    }
+  }
+}

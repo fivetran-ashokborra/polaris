@@ -1,0 +1,23 @@
+extension/persistence/eclipselink/src/test/java/org/apache/polaris/extension/persistence/impl/eclipselink/PolarisEclipseLinkMetaStoreManagerTest.java
+  c08ef2bc7d8a037a 23,29-30,32-36,42-45,50,174-278
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.1",
+  "base_commit_sha": "b931e2aa9dc0f21b1f35a28c84d35ac8c0d140ff",
+  "prompts": {
+    "c08ef2bc7d8a037a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "6f5e5449-b32b-4884-b701-a19529fa7b62",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Zhen Li <zhen.li@fivetran.com>",
+      "messages": [],
+      "total_additions": 118,
+      "total_deletions": 0,
+      "accepted_lines": 118,
+      "overriden_lines": 0
+    }
+  }
+}
