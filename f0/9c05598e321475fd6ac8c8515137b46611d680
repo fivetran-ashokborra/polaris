@@ -1,0 +1,27 @@
+runtime/service/src/main/java/org/apache/polaris/service/catalog/iceberg/IcebergCatalog.java
+  72bad34babf592f9 77,1718-1719,1742
+runtime/service/src/test/java/org/apache/polaris/service/exception/IcebergExceptionMapperTest.java
+  72bad34babf592f9 32,75
+runtime/service/src/test/java/org/apache/polaris/service/catalog/iceberg/WriteVerificationRetryTest.java
+  72bad34babf592f9 32,147,171,178
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.1",
+  "base_commit_sha": "f09c05598e321475fd6ac8c8515137b46611d680",
+  "prompts": {
+    "72bad34babf592f9": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "7ccdaa21-3c46-4efb-b6a7-60c16ba4b8c8",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Zhen Li <zhen.li@fivetran.com>",
+      "messages": [],
+      "total_additions": 14,
+      "total_deletions": 18,
+      "accepted_lines": 10,
+      "overriden_lines": 0
+    }
+  }
+}
