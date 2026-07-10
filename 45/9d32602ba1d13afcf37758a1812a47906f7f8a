@@ -1,0 +1,23 @@
+runtime/service/src/test/java/org/apache/polaris/service/storage/aws/StsClientsPoolTest.java
+  da708aaffa4570e2 113-118,120-132
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.2",
+  "base_commit_sha": "459d32602ba1d13afcf37758a1812a47906f7f8a",
+  "prompts": {
+    "da708aaffa4570e2": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "76c49262-a41c-4d62-b5a0-ea17792f2b9a",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Zhen Li <zhen.li@fivetran.com>",
+      "messages": [],
+      "total_additions": 23,
+      "total_deletions": 4,
+      "accepted_lines": 19,
+      "overriden_lines": 1
+    }
+  }
+}
