@@ -1,0 +1,49 @@
+polaris-core/src/test/java/org/apache/polaris/core/storage/azure/AzureCredentialsStorageIntegrationTest.java
+  60ac874ca000a817 318,342,348,358,370,385,408,425,431,440,453,471,478
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.3",
+  "base_commit_sha": "2a193d8d9a4e2038c97ee82098b5be0d4ee8b133",
+  "prompts": {
+    "60ac874ca000a817": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "eed0483c-783f-4b03-94ff-c5ca78250ae3",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Zhen Li <zhen.li@fivetran.com>",
+      "messages": [],
+      "total_additions": 16,
+      "total_deletions": 131,
+      "accepted_lines": 13,
+      "overriden_lines": 0
+    },
+    "943b9a394ae1cc01": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "aed9d0b0-c7ee-4847-a140-4eb00ba2db9b",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Zhen Li <zhen.li@fivetran.com>",
+      "messages": [],
+      "total_additions": 1,
+      "total_deletions": 0,
+      "accepted_lines": 1,
+      "overriden_lines": 0
+    },
+    "e5faa344743cb91d": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "fb0fbff4-bcc6-4c8c-9777-0ae34c09447b",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "arun.suri <arun.suri@fivetran.com>",
+      "messages": [],
+      "total_additions": 45,
+      "total_deletions": 3,
+      "accepted_lines": 45,
+      "overriden_lines": 0
+    }
+  }
+}
