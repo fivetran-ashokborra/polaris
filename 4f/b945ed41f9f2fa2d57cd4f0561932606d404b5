@@ -1,0 +1,35 @@
+runtime/service/src/test/java/org/apache/polaris/service/catalog/iceberg/AbstractIcebergCatalogTest.java
+  943b9a394ae1cc01 371
+runtime/service/src/main/java/org/apache/polaris/service/storage/PolarisStorageIntegrationProviderImpl.java
+  943b9a394ae1cc01 48,60,68-69,73-74,80-81,85,135-136
+runtime/service/src/test/java/org/apache/polaris/service/catalog/policy/AbstractPolicyCatalogTest.java
+  943b9a394ae1cc01 28,251
+polaris-core/src/main/java/org/apache/polaris/core/storage/azure/AzureCredentialsStorageIntegration.java
+  943b9a394ae1cc01 131-132,542-545
+polaris-core/src/test/java/org/apache/polaris/core/storage/azure/AzureCredentialsStorageIntegrationTest.java
+  943b9a394ae1cc01 45,49,72-90,196-198,200-203,241,247-251,253,256-260,262,293,295-299,301,331,333-335,337,340-343,348,365-398
+runtime/service/src/test/java/org/apache/polaris/service/catalog/generic/AbstractPolarisGenericTableCatalogTest.java
+  943b9a394ae1cc01 22,232
+runtime/admin/src/main/java/org/apache/polaris/admintool/config/AdminToolProducers.java
+  943b9a394ae1cc01 31,69
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.1",
+  "base_commit_sha": "4fb945ed41f9f2fa2d57cd4f0561932606d404b5",
+  "prompts": {
+    "943b9a394ae1cc01": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "aed9d0b0-c7ee-4847-a140-4eb00ba2db9b",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Zhen Li <zhen.li@fivetran.com>",
+      "messages": [],
+      "total_additions": 103,
+      "total_deletions": 2,
+      "accepted_lines": 116,
+      "overriden_lines": 0
+    }
+  }
+}

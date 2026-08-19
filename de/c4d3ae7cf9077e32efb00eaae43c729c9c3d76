@@ -1,0 +1,23 @@
+polaris-core/src/test/java/org/apache/polaris/core/storage/azure/AzureSecredCredentialCacheSpec.java
+  943b9a394ae1cc01 211,213-214,218-219,224,230-243,246
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.1",
+  "base_commit_sha": "dec4d3ae7cf9077e32efb00eaae43c729c9c3d76",
+  "prompts": {
+    "943b9a394ae1cc01": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "aed9d0b0-c7ee-4847-a140-4eb00ba2db9b",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Zhen Li <zhen.li@fivetran.com>",
+      "messages": [],
+      "total_additions": 29,
+      "total_deletions": 15,
+      "accepted_lines": 23,
+      "overriden_lines": 1
+    }
+  }
+}

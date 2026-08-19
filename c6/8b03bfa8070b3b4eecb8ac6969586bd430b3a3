@@ -1,0 +1,25 @@
+runtime/service/src/testFixtures/java/org/apache/polaris/service/catalog/io/CorruptingFileIOFactory.java
+  72bad34babf592f9 76,78,93
+runtime/service/src/main/java/org/apache/polaris/service/catalog/iceberg/IcebergCatalog.java
+  72bad34babf592f9 1701,1703,1712,1714-1721
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.1",
+  "base_commit_sha": "c68b03bfa8070b3b4eecb8ac6969586bd430b3a3",
+  "prompts": {
+    "72bad34babf592f9": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "7ccdaa21-3c46-4efb-b6a7-60c16ba4b8c8",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Zhen Li <zhen.li@fivetran.com>",
+      "messages": [],
+      "total_additions": 14,
+      "total_deletions": 9,
+      "accepted_lines": 14,
+      "overriden_lines": 0
+    }
+  }
+}

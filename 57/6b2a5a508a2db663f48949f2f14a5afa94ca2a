@@ -1,0 +1,23 @@
+polaris-service/src/main/java/org/apache/polaris/service/catalog/BasePolarisCatalog.java
+  248dd61f832b5b68 2127-2128,2134-2155,2157
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.1",
+  "base_commit_sha": "576b2a5a508a2db663f48949f2f14a5afa94ca2a",
+  "prompts": {
+    "248dd61f832b5b68": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e364437a-dbc3-4637-9f28-7a1586fb53a1",
+        "model": "claude-opus-4-6"
+      },
+      "human_author": "ashok.borra <ashok.borra@fivetran.com>",
+      "messages": [],
+      "total_additions": 22,
+      "total_deletions": 14,
+      "accepted_lines": 25,
+      "overriden_lines": 0
+    }
+  }
+}

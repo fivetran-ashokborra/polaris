@@ -1,0 +1,29 @@
+runtime/service/src/test/java/org/apache/polaris/service/catalog/iceberg/WriteVerificationRetryDisabledTest.java
+  72bad34babf592f9 1-149
+runtime/service/src/test/java/org/apache/polaris/service/catalog/iceberg/WriteVerificationRetryTest.java
+  72bad34babf592f9 1-205
+runtime/service/src/testFixtures/java/org/apache/polaris/service/catalog/io/CorruptingFileIO.java
+  72bad34babf592f9 1-174,176-191
+runtime/service/src/testFixtures/java/org/apache/polaris/service/catalog/io/CorruptingFileIOFactory.java
+  72bad34babf592f9 1-145
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.1",
+  "base_commit_sha": "4151b093856977bb6a132f02ee99497c48867a32",
+  "prompts": {
+    "72bad34babf592f9": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "7ccdaa21-3c46-4efb-b6a7-60c16ba4b8c8",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Zhen Li <zhen.li@fivetran.com>",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 689,
+      "overriden_lines": 0
+    }
+  }
+}

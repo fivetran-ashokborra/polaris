@@ -1,0 +1,11 @@
+polaris-service/src/main/java/org/apache/polaris/service/exception/IcebergExceptionMapper.java
+  248dd61f832b5b68 22,29,33,76-78,97-134,136-139,141-147,151-154,156-187
+polaris-service/src/main/java/org/apache/polaris/service/catalog/BasePolarisCatalog.java
+  248dd61f832b5b68 2154-2155,2161-2174,2177-2183,2185
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.3",
+  "base_commit_sha": "c39c2632599956d2a3a0224a9be9e228b161f380",
+  "prompts": {}
+}

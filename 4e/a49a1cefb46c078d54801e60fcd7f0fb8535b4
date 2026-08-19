@@ -1,0 +1,25 @@
+polaris-core/src/main/java/org/apache/polaris/core/storage/azure/AzureCredentialsStorageIntegration.java
+  e5faa344743cb91d 324-326,328
+polaris-core/src/test/java/org/apache/polaris/core/storage/azure/AzureCredentialsStorageIntegrationTest.java
+  e5faa344743cb91d 211-251
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.1",
+  "base_commit_sha": "4ea49a1cefb46c078d54801e60fcd7f0fb8535b4",
+  "prompts": {
+    "e5faa344743cb91d": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "fb0fbff4-bcc6-4c8c-9777-0ae34c09447b",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "arun.suri <arun.suri@fivetran.com>",
+      "messages": [],
+      "total_additions": 45,
+      "total_deletions": 3,
+      "accepted_lines": 45,
+      "overriden_lines": 0
+    }
+  }
+}

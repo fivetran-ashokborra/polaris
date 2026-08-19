@@ -1,0 +1,29 @@
+runtime/service/src/test/java/org/apache/polaris/service/admin/PolarisAuthzTestBase.java
+  943b9a394ae1cc01 79,219-220
+runtime/service/src/main/java/org/apache/polaris/service/storage/PolarisStorageIntegrationProviderImpl.java
+  943b9a394ae1cc01 48,60,68-69,73-74,80-81,85,132-133
+runtime/service/src/testFixtures/java/org/apache/polaris/service/TestServices.java
+  943b9a394ae1cc01 57,165-166
+runtime/service/src/main/java/org/apache/polaris/service/config/ServiceProducers.java
+  943b9a394ae1cc01 57,113-116
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.1",
+  "base_commit_sha": "fd45be5cb4a50ef75c1bdf9e2bf751def2578623",
+  "prompts": {
+    "943b9a394ae1cc01": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "aed9d0b0-c7ee-4847-a140-4eb00ba2db9b",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Zhen Li <zhen.li@fivetran.com>",
+      "messages": [],
+      "total_additions": 30,
+      "total_deletions": 0,
+      "accepted_lines": 22,
+      "overriden_lines": 0
+    }
+  }
+}

@@ -1,0 +1,31 @@
+runtime/service/src/main/java/org/apache/polaris/service/config/ServiceProducers.java
+  e566000326702fe9 22,109-114,117-118
+polaris-core/build.gradle.kts
+  e566000326702fe9 106-110
+runtime/service/src/test/java/org/apache/polaris/service/storage/StorageCredentialCacheMetricsTest.java
+  e566000326702fe9 1-122
+polaris-core/src/test/java/org/apache/polaris/core/storage/cache/StorageCredentialCacheTest.java
+  e566000326702fe9 23-26,34,64-66,82-87,123-130,516-701
+polaris-core/src/main/java/org/apache/polaris/core/storage/cache/StorageCredentialCache.java
+  e566000326702fe9 24,33,56-57,61-76,81
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.3",
+  "base_commit_sha": "d9d8c6852d036e69c1ee327fb922dc41068edd2a",
+  "prompts": {
+    "e566000326702fe9": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "509ebcfc-a0b2-43f7-bd80-b47433ed0354",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Ahmad Alhour <ahmad.alhour@fivetran.com>",
+      "messages": [],
+      "total_additions": 370,
+      "total_deletions": 4,
+      "accepted_lines": 365,
+      "overriden_lines": 0
+    }
+  }
+}
