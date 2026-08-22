@@ -1,0 +1,27 @@
+polaris-core/src/main/java/org/apache/polaris/core/storage/aws/AwsCredentialsStorageIntegration.java
+  9fec3210015aa59e 434,438-454
+integration-tests/src/main/java/org/apache/polaris/service/it/test/PolarisRestCatalogIntegrationBase.java
+  9fec3210015aa59e 2016,2019,2021,2023-2025,2027-2029,2032-2033
+.github/workflows/ci.yml
+  9fec3210015aa59e 207-208
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.4",
+  "base_commit_sha": "515dd332c11676b452b77884fb4d4a89ef59d4ee",
+  "prompts": {
+    "9fec3210015aa59e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d27fea14-f826-4081-9fcc-ecf06fce708b",
+        "model": "<synthetic>"
+      },
+      "human_author": "ashok.borra <ashok.borra@fivetran.com>",
+      "messages": [],
+      "total_additions": 103,
+      "total_deletions": 84,
+      "accepted_lines": 36,
+      "overriden_lines": 0
+    }
+  }
+}
