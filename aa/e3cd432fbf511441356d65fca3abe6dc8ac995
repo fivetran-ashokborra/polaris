@@ -1,0 +1,29 @@
+extensions/auth/opa/build.gradle.kts
+  cb66a8f66e75a5c9 238
+runtime/defaults/src/main/resources/application.properties
+  cb66a8f66e75a5c9 167
+extensions/auth/ranger/build.gradle.kts
+  cb66a8f66e75a5c9 119
+runtime/defaults/src/main/resources/application-it.properties
+  cb66a8f66e75a5c9 29
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.4",
+  "base_commit_sha": "aae3cd432fbf511441356d65fca3abe6dc8ac995",
+  "prompts": {
+    "cb66a8f66e75a5c9": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "33eef567-cd19-4dcc-bc69-31f3370ada18",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "ashok.borra <ashok.borra@fivetran.com>",
+      "messages": [],
+      "total_additions": 4,
+      "total_deletions": 1,
+      "accepted_lines": 4,
+      "overriden_lines": 0
+    }
+  }
+}
