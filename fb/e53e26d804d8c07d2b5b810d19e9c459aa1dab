@@ -1,0 +1,25 @@
+runtime/service/src/main/java/org/apache/polaris/service/catalog/iceberg/ExternalWriteAuditLogger.java
+  d6c6cb2e39791f35 207
+polaris-core/src/main/java/org/apache/polaris/core/storage/azure/AzureCredentialsStorageIntegration.java
+  d6c6cb2e39791f35 294
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.4",
+  "base_commit_sha": "fbe53e26d804d8c07d2b5b810d19e9c459aa1dab",
+  "prompts": {
+    "d6c6cb2e39791f35": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "4bdc7812-30bc-446c-8830-cfb3dc647ca9",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "ashok.borra <ashok.borra@fivetran.com>",
+      "messages": [],
+      "total_additions": 2,
+      "total_deletions": 2,
+      "accepted_lines": 2,
+      "overriden_lines": 0
+    }
+  }
+}
