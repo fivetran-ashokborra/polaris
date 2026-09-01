@@ -1,0 +1,23 @@
+runtime/service/src/main/java/org/apache/polaris/service/storage/PolarisStorageIntegrationProviderImpl.java
+  f5238d488ff569d2 21,117-120,162-165
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.4",
+  "base_commit_sha": "7e0e7dd938239062add5ed3702da1e714a5fb189",
+  "prompts": {
+    "f5238d488ff569d2": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0f59edba-c3cc-488f-aaf5-483c39b2dc0f",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "ashok.borra <ashok.borra@fivetran.com>",
+      "messages": [],
+      "total_additions": 9,
+      "total_deletions": 0,
+      "accepted_lines": 9,
+      "overriden_lines": 0
+    }
+  }
+}
