@@ -1,0 +1,23 @@
+persistence/relational-jdbc/src/main/java/org/apache/polaris/persistence/relational/jdbc/DatasourceOperations.java
+  3e732083d55a18b7 300
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.4",
+  "base_commit_sha": "3ad66fe1b8ccfe4aa6cce85fa5073d7af413dad8",
+  "prompts": {
+    "3e732083d55a18b7": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "924a24d6-2b30-48c3-928a-4713ff5cb51f",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "ashok.borra <ashok.borra@fivetran.com>",
+      "messages": [],
+      "total_additions": 3,
+      "total_deletions": 6,
+      "accepted_lines": 1,
+      "overriden_lines": 0
+    }
+  }
+}
