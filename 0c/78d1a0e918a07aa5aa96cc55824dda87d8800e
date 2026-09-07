@@ -1,0 +1,23 @@
+.github/workflows/ci.yml
+  d6c6cb2e39791f35 278-279
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.4",
+  "base_commit_sha": "0c78d1a0e918a07aa5aa96cc55824dda87d8800e",
+  "prompts": {
+    "d6c6cb2e39791f35": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "4bdc7812-30bc-446c-8830-cfb3dc647ca9",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "ashok.borra <ashok.borra@fivetran.com>",
+      "messages": [],
+      "total_additions": 2,
+      "total_deletions": 0,
+      "accepted_lines": 2,
+      "overriden_lines": 0
+    }
+  }
+}
