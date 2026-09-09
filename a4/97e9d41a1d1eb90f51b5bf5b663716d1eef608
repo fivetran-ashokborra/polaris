@@ -1,0 +1,21 @@
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.4",
+  "base_commit_sha": "a497e9d41a1d1eb90f51b5bf5b663716d1eef608",
+  "prompts": {
+    "d3357f6ad7ccb2d5": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "08afc78b-521d-4de5-8898-5f821d9135d4",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Vishal Kriplani <vishalkriplani56@gmail.com>",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 61,
+      "overriden_lines": 0
+    }
+  }
+}
