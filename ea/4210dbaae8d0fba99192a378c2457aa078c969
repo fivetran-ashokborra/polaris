@@ -1,0 +1,46 @@
+runtime/service/src/main/java/org/apache/polaris/service/catalog/iceberg/FivetranCommitGuard.java
+  04b913b66f941db9 284-286,301-308,321-336,339,357-358
+regtests/t_spark_sql/src/spark_sql_fivetran_commit_guard.sh
+  04b913b66f941db9 65-66,117-124
+runtime/service/src/test/java/org/apache/polaris/service/catalog/iceberg/AbstractIcebergCatalogTest.java
+  04b913b66f941db9 532-561
+runtime/service/src/main/java/org/apache/polaris/service/catalog/iceberg/IcebergCatalog.java
+  04b913b66f941db9 1464-1468
+regtests/t_spark_sql/ref/spark_sql_fivetran_commit_guard.sh.ref
+  04b913b66f941db9 12
+runtime/service/src/test/java/org/apache/polaris/service/catalog/iceberg/FivetranCommitGuardTest.java
+  04b913b66f941db9 198-264
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.4",
+  "base_commit_sha": "ea4210dbaae8d0fba99192a378c2457aa078c969",
+  "prompts": {
+    "04b913b66f941db9": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "4a5f1bf4-28f1-44dd-bbfb-5b8eb78e6c13",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Vishal Kriplani <vishalkriplani56@gmail.com>",
+      "messages": [],
+      "total_additions": 200,
+      "total_deletions": 59,
+      "accepted_lines": 151,
+      "overriden_lines": 0
+    },
+    "d3357f6ad7ccb2d5": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "08afc78b-521d-4de5-8898-5f821d9135d4",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "Vishal Kriplani <vishalkriplani56@gmail.com>",
+      "messages": [],
+      "total_additions": 81,
+      "total_deletions": 20,
+      "accepted_lines": 61,
+      "overriden_lines": 0
+    }
+  }
+}
