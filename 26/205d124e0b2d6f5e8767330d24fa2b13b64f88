@@ -1,0 +1,25 @@
+Dockerfile
+  d6c6cb2e39791f35 36-41
+.github/workflows/ci.yml
+  d6c6cb2e39791f35 283-288,299,301-314,316-323,326-344
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.4",
+  "base_commit_sha": "26205d124e0b2d6f5e8767330d24fa2b13b64f88",
+  "prompts": {
+    "d6c6cb2e39791f35": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "4bdc7812-30bc-446c-8830-cfb3dc647ca9",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "ashok.borra <ashok.borra@fivetran.com>",
+      "messages": [],
+      "total_additions": 55,
+      "total_deletions": 47,
+      "accepted_lines": 55,
+      "overriden_lines": 0
+    }
+  }
+}
