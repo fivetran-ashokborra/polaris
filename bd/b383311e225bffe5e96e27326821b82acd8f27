@@ -1,0 +1,21 @@
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.4",
+  "base_commit_sha": "bdb383311e225bffe5e96e27326821b82acd8f27",
+  "prompts": {
+    "45bf68771c12c009": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "27fb7b45-6c80-4abc-9080-fb5a157d2dca",
+        "model": "claude-sonnet-4-5-20250929"
+      },
+      "human_author": "Vikas Pandey <vikas.pandey@fivetran.com>",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 24,
+      "accepted_lines": 1257,
+      "overriden_lines": 0
+    }
+  }
+}
