@@ -1,0 +1,35 @@
+persistence/relational-jdbc/src/test/java/org/apache/polaris/persistence/relational/jdbc/JdbcEventsPersistenceTest.java
+  45bf68771c12c009 70-71
+polaris-core/src/main/java/org/apache/polaris/core/persistence/BaseMetaStoreManager.java
+  45bf68771c12c009 150-230
+persistence/relational-jdbc/src/main/java/org/apache/polaris/persistence/relational/jdbc/JdbcMetaStoreManagerFactory.java
+  45bf68771c12c009 90-91,132
+runtime/service/src/main/java/org/apache/polaris/service/catalog/io/StorageAccessConfigProvider.java
+  45bf68771c12c009 121
+persistence/relational-jdbc/src/main/java/org/apache/polaris/persistence/relational/jdbc/JdbcBasePersistenceImpl.java
+  45bf68771c12c009 1351-1355,1360-1361
+persistence/relational-jdbc/src/test/java/org/apache/polaris/persistence/relational/jdbc/AtomicMetastoreManagerWithJdbcBasePersistenceImplTest.java
+  45bf68771c12c009 103-104
+persistence/relational-jdbc/src/test/java/org/apache/polaris/persistence/relational/jdbc/JdbcBasePersistenceImplTest.java
+  45bf68771c12c009 89-90,133-134,211-212,279-280,331-332,386-387
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.4",
+  "base_commit_sha": "0f16ecb03e8792fae13d715e49c201f3a7595d05",
+  "prompts": {
+    "45bf68771c12c009": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "27fb7b45-6c80-4abc-9080-fb5a157d2dca",
+        "model": "claude-sonnet-4-5-20250929"
+      },
+      "human_author": "Vikas Pandey <vikas.pandey@fivetran.com>",
+      "messages": [],
+      "total_additions": 1566,
+      "total_deletions": 89,
+      "accepted_lines": 1403,
+      "overriden_lines": 4
+    }
+  }
+}

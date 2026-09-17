@@ -1,0 +1,27 @@
+polaris-core/src/main/java/org/apache/polaris/core/entity/PolarisTaskConstants.java
+  45bf68771c12c009 29
+polaris-core/src/main/java/org/apache/polaris/core/persistence/AtomicOperationMetaStoreManager.java
+  45bf68771c12c009 1209-1211,1213-1226
+runtime/service/src/main/java/org/apache/polaris/service/catalog/io/StorageAccessConfigProvider.java
+  45bf68771c12c009 120-135
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.4",
+  "base_commit_sha": "ccb78fc6ba104666a4f0801a9917f1e4a70d5934",
+  "prompts": {
+    "45bf68771c12c009": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "27fb7b45-6c80-4abc-9080-fb5a157d2dca",
+        "model": "claude-sonnet-4-5-20250929"
+      },
+      "human_author": "Vikas Pandey <vikas.pandey@fivetran.com>",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 1291,
+      "overriden_lines": 0
+    }
+  }
+}
