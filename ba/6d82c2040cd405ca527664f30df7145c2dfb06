@@ -1,0 +1,89 @@
+runtime/service/src/main/java/org/apache/polaris/service/memory/MemorySheddingConfiguration.java
+  e10279f765b2f020 1-56
+runtime/service/src/test/java/org/apache/polaris/service/catalog/iceberg/IcebergCatalogHandlerTest.java
+  e10279f765b2f020 90,93-94,134-138,187,199-206,382-528
+runtime/service/src/test/java/org/apache/polaris/service/memory/MemorySheddingMonitorTest.java
+  e10279f765b2f020 1-264,266-760
+runtime/service/src/testFixtures/java/org/apache/polaris/service/TestServices.java
+  e10279f765b2f020 207,257-261,491
+runtime/service/src/main/java/org/apache/polaris/service/memory/CgroupMemorySample.java
+  e10279f765b2f020 1-39
+runtime/service/src/main/java/org/apache/polaris/service/memory/MemorySheddingGate.java
+  e10279f765b2f020 1-21,26-34
+runtime/service/src/main/java/org/apache/polaris/service/memory/MonotonicClock.java
+  e10279f765b2f020 1-22,26-31
+runtime/service/src/test/java/org/apache/polaris/service/memory/MemorySheddingStateMachineTest.java
+  e10279f765b2f020 1-266
+runtime/service/src/test/java/org/apache/polaris/service/memory/MemorySheddingReadinessCheckDisabledHealthTest.java
+  e10279f765b2f020 1-83
+runtime/service/src/test/java/org/apache/polaris/service/memory/ControllableCgroupMemoryReader.java
+  e10279f765b2f020 1-61
+runtime/service/src/test/java/org/apache/polaris/service/memory/MemorySheddingControlledReaderHealthTest.java
+  e10279f765b2f020 1-150
+integration-tests/src/main/java/org/apache/polaris/service/it/env/PlatformHealthApi.java
+  e10279f765b2f020 1-32,34-43
+runtime/service/src/main/java/org/apache/polaris/service/memory/MemorySheddingGateImpl.java
+  e10279f765b2f020 1-45
+integration-tests/src/main/java/org/apache/polaris/service/it/env/PolarisClient.java
+  e10279f765b2f020 137-143
+runtime/service/src/test/java/org/apache/polaris/service/memory/DefaultCgroupMemoryReaderTest.java
+  e10279f765b2f020 1-165,167-170,172-179,181-184
+runtime/service/src/main/java/org/apache/polaris/service/memory/CgroupMemoryReader.java
+  e10279f765b2f020 1-23,27-31
+runtime/service/src/main/java/org/apache/polaris/service/catalog/iceberg/IcebergCatalogHandler.java
+  e10279f765b2f020 133,191-192,1153-1157
+runtime/service/src/test/java/org/apache/polaris/service/Profiles.java
+  e10279f765b2f020 264-317,321-344
+runtime/service/src/main/java/org/apache/polaris/service/memory/MemorySheddingSnapshot.java
+  e10279f765b2f020 1-38,41-45
+runtime/service/src/main/java/org/apache/polaris/service/memory/MemorySheddingBounds.java
+  e10279f765b2f020 1-109
+runtime/service/src/main/java/org/apache/polaris/service/memory/MemorySheddingException.java
+  e10279f765b2f020 1-31
+runtime/service/src/main/java/org/apache/polaris/service/memory/SystemMonotonicClock.java
+  e10279f765b2f020 1-30
+runtime/service/src/main/java/org/apache/polaris/service/catalog/iceberg/IcebergCatalogHandlerFactory.java
+  e10279f765b2f020 42,66,90
+runtime/service/src/test/java/org/apache/polaris/service/memory/MemorySheddingReadinessCheckHealthTest.java
+  e10279f765b2f020 1-108
+runtime/service/src/test/java/org/apache/polaris/service/memory/MemorySheddingReaderProbeIsolationHealthTest.java
+  e10279f765b2f020 1-95
+runtime/service/src/main/java/org/apache/polaris/service/memory/MemorySheddingExceptionMapper.java
+  e10279f765b2f020 1-27,30-49
+runtime/service/src/main/java/org/apache/polaris/service/memory/MemorySheddingStateMachine.java
+  e10279f765b2f020 1-40,43-119
+runtime/service/src/test/java/org/apache/polaris/service/memory/MemorySheddingGateHttpRejectionTest.java
+  e10279f765b2f020 1-206
+runtime/service/src/main/java/org/apache/polaris/service/memory/DefaultCgroupMemoryReader.java
+  e10279f765b2f020 1-32,35-82,84-131
+runtime/service/src/main/java/org/apache/polaris/service/memory/MemorySheddingState.java
+  e10279f765b2f020 1-21,25-29
+runtime/service/src/test/java/org/apache/polaris/service/memory/MemorySheddingExceptionMapperTest.java
+  e10279f765b2f020 1-44
+runtime/service/src/main/java/org/apache/polaris/service/memory/MemorySheddingMonitor.java
+  e10279f765b2f020 1-41,44-58,60-208,210-269,271-472
+runtime/service/src/main/java/org/apache/polaris/service/memory/MemorySheddingReadinessCheck.java
+  e10279f765b2f020 1-56
+runtime/service/src/test/java/org/apache/polaris/service/memory/MemorySheddingBoundsTest.java
+  e10279f765b2f020 1-142
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.4",
+  "base_commit_sha": "ba6d82c2040cd405ca527664f30df7145c2dfb06",
+  "prompts": {
+    "e10279f765b2f020": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "957b3b4e-69be-4532-a007-ed8c4c48ccb3",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Ahmad Alhour <ahmad.alhour@fivetran.com>",
+      "messages": [],
+      "total_additions": 4165,
+      "total_deletions": 461,
+      "accepted_lines": 3685,
+      "overriden_lines": 38
+    }
+  }
+}
