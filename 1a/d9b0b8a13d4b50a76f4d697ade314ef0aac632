@@ -1,0 +1,23 @@
+polaris-core/src/main/java/org/apache/polaris/core/storage/aws/AwsCredentialsStorageIntegration.java
+  d8cb104d05b7b228 447-452
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.4",
+  "base_commit_sha": "1ad9b0b8a13d4b50a76f4d697ade314ef0aac632",
+  "prompts": {
+    "d8cb104d05b7b228": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f521528a-ed5c-4628-a223-9296971dade6",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "ashok.borra <ashok.borra@fivetran.com>",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 6,
+      "overriden_lines": 0
+    }
+  }
+}
