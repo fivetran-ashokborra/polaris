@@ -1,0 +1,29 @@
+runtime/service/src/main/java/org/apache/polaris/service/storage/PolarisStorageIntegrationProviderImpl.java
+  45bf68771c12c009 192-198
+runtime/service/src/main/java/org/apache/polaris/service/catalog/io/StorageAccessConfigProvider.java
+  45bf68771c12c009 128-133,139-143,146-150
+polaris-core/src/main/java/org/apache/polaris/core/persistence/BaseMetaStoreManager.java
+  45bf68771c12c009 171-177,182-187,191-192,195-204,207-215,218-222,229-243,247-254,256-257,259-260,264-269,276-282,285-287,295-299,302-307,324,329-342,347-349,351-352,355,357-364,369-376,393-399,404-409,413-414,417-426,429-437,440-444,451-458,460-467,469-470,472-474,478-483,490-496,499-501,512-517,526-527,532-545,547,550-553,556,558-565,570-577
+polaris-core/src/main/java/org/apache/polaris/core/storage/azure/AzureCredentialsStorageIntegration.java
+  45bf68771c12c009 182-188
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.4",
+  "base_commit_sha": "bafae342a0e5f63ef616d9c86c408ac9f5e3c8e1",
+  "prompts": {
+    "45bf68771c12c009": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "27fb7b45-6c80-4abc-9080-fb5a157d2dca",
+        "model": "claude-sonnet-4-5-20250929"
+      },
+      "human_author": "Vikas Pandey <vikas.pandey@fivetran.com>",
+      "messages": [],
+      "total_additions": 283,
+      "total_deletions": 16,
+      "accepted_lines": 1538,
+      "overriden_lines": 0
+    }
+  }
+}
