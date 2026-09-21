@@ -1,0 +1,21 @@
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.4",
+  "base_commit_sha": "909878836b702b633ad36ac859da613d0734679e",
+  "prompts": {
+    "1d60bf60033cd5dd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "8ea0d541-6e67-4bf3-8fdd-6e90175a3518",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "ashok.borra <ashok.borra@fivetran.com>",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 6,
+      "accepted_lines": 0,
+      "overriden_lines": 0
+    }
+  }
+}
