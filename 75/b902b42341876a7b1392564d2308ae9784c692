@@ -1,0 +1,25 @@
+site/content/in-dev/unreleased/configuration/configuration-reference.md
+  e10279f765b2f020 194-213
+runtime/service/src/main/java/org/apache/polaris/service/memory/MemorySheddingConfiguration.java
+  e10279f765b2f020 29-32,38
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.4",
+  "base_commit_sha": "75b902b42341876a7b1392564d2308ae9784c692",
+  "prompts": {
+    "e10279f765b2f020": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "957b3b4e-69be-4532-a007-ed8c4c48ccb3",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Ahmad Alhour <ahmad.alhour@fivetran.com>",
+      "messages": [],
+      "total_additions": 25,
+      "total_deletions": 5,
+      "accepted_lines": 25,
+      "overriden_lines": 0
+    }
+  }
+}
