@@ -1,0 +1,31 @@
+runtime/service/src/main/java/org/apache/polaris/service/catalog/iceberg/IcebergCatalogHandler.java
+  a8240f38ed323e5f 1137-1143
+runtime/service/src/main/java/org/apache/polaris/service/memory/DefaultCgroupMemoryReader.java
+  a8240f38ed323e5f 240-243,249,251,255-268
+site/content/in-dev/unreleased/configuration/configuration-reference.md
+  a8240f38ed323e5f 205,207-223,227-232
+runtime/service/src/test/java/org/apache/polaris/service/memory/DefaultCgroupMemoryReaderTest.java
+  a8240f38ed323e5f 406-478,482-501,505-524
+runtime/service/src/test/java/org/apache/polaris/service/catalog/iceberg/IcebergCatalogHandlerTest.java
+  a8240f38ed323e5f 381-388,390,392-393,397-434,436-452,455,457,459
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.4",
+  "base_commit_sha": "569864f3acc8a9d20da6a1aea2d73b682e72d679",
+  "prompts": {
+    "a8240f38ed323e5f": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "feb47ee5-a4cb-4471-ae34-b3df4a2076ea",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "Ahmad Alhour <ahmad.alhour@fivetran.com>",
+      "messages": [],
+      "total_additions": 251,
+      "total_deletions": 36,
+      "accepted_lines": 237,
+      "overriden_lines": 4
+    }
+  }
+}
