@@ -1,0 +1,25 @@
+polaris-core/src/test/java/org/apache/polaris/core/persistence/TaskEntityCatalogNameExtractionTest.java
+  45bf68771c12c009 124,140,161,190,213,254,277,305,326,380,396,451
+polaris-core/src/main/java/org/apache/polaris/core/persistence/BaseMetaStoreManager.java
+  45bf68771c12c009 23-24,29
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.4",
+  "base_commit_sha": "b6df800fab105d354f0a6e615ad22f4b904f2eb9",
+  "prompts": {
+    "45bf68771c12c009": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "27fb7b45-6c80-4abc-9080-fb5a157d2dca",
+        "model": "claude-sonnet-4-5-20250929"
+      },
+      "human_author": "Vikas Pandey <vikas.pandey@fivetran.com>",
+      "messages": [],
+      "total_additions": 47,
+      "total_deletions": 36,
+      "accepted_lines": 20,
+      "overriden_lines": 6
+    }
+  }
+}
