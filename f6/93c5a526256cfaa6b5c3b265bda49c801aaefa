@@ -1,0 +1,23 @@
+runtime/service/src/main/java/org/apache/polaris/service/catalog/iceberg/LocalIcebergCatalog.java
+  8198ea8f2fdff8d8 1370-1371
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.4",
+  "base_commit_sha": "f693c5a526256cfaa6b5c3b265bda49c801aaefa",
+  "prompts": {
+    "8198ea8f2fdff8d8": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0b55d763-29be-4aff-a0ea-69df100dd2e5",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "ashok.borra <ashok.borra@fivetran.com>",
+      "messages": [],
+      "total_additions": 4,
+      "total_deletions": 2,
+      "accepted_lines": 2,
+      "overriden_lines": 0
+    }
+  }
+}
