@@ -1,0 +1,29 @@
+runtime/defaults/src/main/resources/application.properties
+  8198ea8f2fdff8d8 151-153
+polaris-core/src/main/java/org/apache/polaris/core/config/FeatureConfiguration.java
+  8198ea8f2fdff8d8 317-327
+polaris-core/src/main/java/org/apache/polaris/core/storage/aws/AwsCredentialsStorageIntegration.java
+  8198ea8f2fdff8d8 230-231,326-327,410-411,446-461
+polaris-core/src/test/java/org/apache/polaris/core/storage/aws/AwsCredentialsStorageIntegrationTest.java
+  8198ea8f2fdff8d8 1885-1939
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.4",
+  "base_commit_sha": "0dafce40d7923257a1786b97b3e4671171db37be",
+  "prompts": {
+    "8198ea8f2fdff8d8": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "0b55d763-29be-4aff-a0ea-69df100dd2e5",
+        "model": "claude-sonnet-5"
+      },
+      "human_author": "ashok.borra <ashok.borra@fivetran.com>",
+      "messages": [],
+      "total_additions": 0,
+      "total_deletions": 0,
+      "accepted_lines": 91,
+      "overriden_lines": 0
+    }
+  }
+}
